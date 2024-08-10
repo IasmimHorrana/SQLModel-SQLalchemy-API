@@ -12,6 +12,8 @@ sqlalchemy = "^2.0.32"
 requests = "^2.32.3"
 pydentic = "^0.0.1.dev3"
 pydantic = "^2.8.2"
+fastapi = "^0.112.0"
+uvicorn = {extras = ["standard"], version = "^0.30.5"}
 
 
 [build-system]
